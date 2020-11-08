@@ -70,7 +70,8 @@ section {
 
 section#sec1,
 section#sec3,
-section#sec5 {
+section#sec5,
+section#sec7 {
   background-color: #f8f8f8;
 }
 section#sec2,
@@ -105,6 +106,12 @@ p#links {
   display: none;
 }
 
+section#sec4 a, section#sec5 a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2f80ed;
+}
+
 a:not(a#email) {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
@@ -113,12 +120,12 @@ a:not(a#email) {
   font-size: 1.3em;
 }
 
+section#sec6 {
+  text-align: center;
+}
+
 a:hover {
   color: blue;
-  -webkit-transition: 0.25s linear 0s;
-  -moz-transition: 0.25s linear 0s;
-  -o-transition: 0.25s linear 0s;
-  transition: 0.25s linear 0s;
 }
 
 section#sec2 img {
@@ -192,6 +199,58 @@ h2#mob {
 p#mob {
   margin-bottom: 1.5em;
   text-align: center;
+}
+
+
+h1{
+  font-size: 45px;
+  color: #fff;
+}
+canvas {
+  background: #f0f0f0;
+  display: block;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 350; 
+  height: 250;
+}
+.btn{
+  cursor: pointer;
+  border: 0;
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border-radius: 5px;
+}
+.btn:focus {
+  outline: 0;
+}
+.btn:hover {
+  background: #222;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+.rules-btn {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.rules{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #333;
+  color: #FFF;
+  min-height: 100vh;
+  width: 400px;
+  padding: 20px;
+  line-height: 1.5;
+  transform: translateX(-400px);
+  transition: transform 1s ease-in-out;
+}
+.rules.show{
+  transform: translateX(0);
 }
 
 /*---------------------- For Desktops ----------------------------------------------*/
@@ -342,10 +401,6 @@ p#mob {
   .button2:hover,
   .nav:hover {
     color: #fff;
-    -webkit-transition: 0.25s linear 0s;
-    -moz-transition: 0.25s linear 0s;
-    -o-transition: 0.25s linear 0s;
-    transition: 0.25s linear 0s;
   }
 
   a#welcome {
@@ -383,10 +438,17 @@ p#mob {
   div#contactDets:hover {
     box-shadow: 0px 0px 5px #5094f0;
     border: 1px solid #5094f0;
-    -webkit-transition: 0.25s linear 0s;
-    -moz-transition: 0.25s linear 0s;
-    -o-transition: 0.25s linear 0s;
-    transition: 0.25s linear 0s;
+  }
+
+  section#sec4 img,
+  section#sec5 img,
+  section#sec3 img,
+  div#contactDets,
+  .buttons,
+  .button2,
+  .nav,
+  a:hover {
+    transition: 0.2s linear 0s;
   }
 
   section#sec4 img {
@@ -441,5 +503,10 @@ p#mob {
   .fa-envelope  {
     background: #000;
     color: white;
+  }
+
+  canvas {
+    width: 800; 
+    height: 600;
   }
 }
