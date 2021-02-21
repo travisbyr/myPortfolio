@@ -114,14 +114,6 @@ section#sec4 a, section#sec5 a {
   color: #2f80ed;
 }
 
-a:not(a#email) {
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #000;
-  margin: 0.5em;
-  font-size: 1.3em;
-}
-
 section#sec6 {
   text-align: center;
 }
