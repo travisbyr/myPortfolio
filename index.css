@@ -146,19 +146,13 @@ section#sec4 img,
 section#sec5 img {
   display: block;
   margin: 0 auto;
-  width: 55%;
+  width: 35%;
   background-color: #fefefe;
   padding: 1em;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   border: 1px solid #e5e3e3;
   border-radius: 2%;
-}
-
-section#sec4 img,
-section#sec5 img {
-  width: 40%;
-  padding: 2em;
 }
 
 section#sec1 img,
