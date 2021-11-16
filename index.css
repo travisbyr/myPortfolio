@@ -20,7 +20,6 @@ header {
   height: 100vh;
   margin: 0;
   overflow: visible;
-  /* background-image: url("https://news.fnal.gov/wp-content/uploads/2020/02/2020-02-11_5e42c8469d971_White_background-scaled.jpg"); */
   background-image: url(images/wallpaper.jpg);
   background-position: center;
   background-size: cover;
@@ -31,7 +30,7 @@ h1#headingMob {
   /* position: relative; */
   font-family: Arial, Helvetica, sans-serif;
   color: black;
-  font-size: 10vh;
+  font-size: 6em;
   margin: 0;
   top: 5%;
   text-align: center;
@@ -57,7 +56,7 @@ img#headingImg {
 
 h2 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 5vh;
+  font-size: 2.5em;
   margin: 0;
   padding: 0;
   display: none;
