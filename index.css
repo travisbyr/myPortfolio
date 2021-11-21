@@ -373,6 +373,10 @@ i {
     display: block;
   }
 
+  h1 span, h2 span {
+    font-weight: 100;
+  }
+
   section#sec2 img {
     height: 12em;
     margin: 0 1em;
